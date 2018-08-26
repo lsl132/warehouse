@@ -4,3 +4,13 @@ spring:
     url: jdbc:mysql://192.168.1.31:3306/mydata?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: '{cipher}f1671636ea631ab95b7adcab857732ffd1ce3816c4ee542b66412292d965fbb0'
+  redis:
+    database: 0
+    host: '{cipher}acdd00972daa54abc891132deda740604d47a264f6553a416e27efbbb0b24100'
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
