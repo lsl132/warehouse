@@ -1,1 +1,8 @@
+spring: 
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mariadb-server:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: '{cipher}171f318a08e14a42b71d5c45e482d7aa98378926f735e4ce41d2a5c1288889c6'
+
 bash-path: D:/upload/
