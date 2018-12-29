@@ -1,0 +1,15 @@
+spring: 
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: test
+        uri: http://test.com/
+        predicates:
+        - Path=/test/**
+      - id: mode
+        uri: lb://mode-server
+        predicates:
+        - Path=/mode-server/**
