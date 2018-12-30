@@ -5,4 +5,4 @@ spring:
       - id: teller-login
         uri: lb://TELLER-SERVER/teller/login
         predicates:
-        - Path=/teller-server/**
+        - Path=/TELLER-SERVER/**
