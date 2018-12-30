@@ -3,6 +3,6 @@ spring:
     gateway:
       routes:
       - id: teller-login
-        uri: lb://teller-server/teller/login
+        uri: lb://TELLER-SERVER/teller/login
         predicates:
-        - Path=/teller-server/teller/login
+        - Path=/teller-server/**
