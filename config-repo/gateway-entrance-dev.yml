@@ -2,7 +2,7 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: teller
-        uri: lb://teller-server
+      - id: teller-login
+        uri: lb://teller-server/teller/login
         predicates:
-        - Path=/teller-server/**
+        - Path=/teller-server/teller/login
