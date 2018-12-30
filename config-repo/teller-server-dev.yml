@@ -1,0 +1,16 @@
+spring: 
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.39:3306/mydbs?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: '{cipher}853e41ceeaa45945cb9a8029716a3399a7e01dd71454a9bb8bc4cea463c3dc06'
+  redis:
+    database: 0
+    host: '{cipher}1f3bee4bc6d2bb3244a2cd00ec010f8597a687dfccc820c93da53724b08a88d5'
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
