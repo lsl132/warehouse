@@ -6,7 +6,7 @@ spring:
     password: '{cipher}a1e204b28f849d13687cd4bbcff70d570121566950e7ed6af52d9491f835c1a7'
   redis:
     database: 0
-    host: '{cipher}a1e204b28f849d13687cd4bbcff70d570121566950e7ed6af52d9491f835c1a7'
+    host: '{cipher}db01f66a709f5e636a70b29063402dd26f694e2901fb1f40a237170bfdf1da46'
     port: 6379
     password:
     jedis:
