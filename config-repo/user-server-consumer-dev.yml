@@ -7,8 +7,10 @@ spring:
   cloud:
     stream:
       binders:
+        input: 
+          destination: input_user_message
         output:
-          destination: user_messages
+          destination: output_user_messages
   rabbitmq:
     host: 192.168.1.39
     port: 5672
