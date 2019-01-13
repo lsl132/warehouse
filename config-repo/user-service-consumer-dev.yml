@@ -1,0 +1,19 @@
+spring: 
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.39:3306/supplier_db?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: '{cipher}a1e204b28f849d13687cd4bbcff70d570121566950e7ed6af52d9491f835c1a7'
+  cloud:
+    stream:
+      binders:
+        output:
+          destination: user_messages
+  rabbitmq:
+    host: 192.168.1.39
+    port: 5672
+    username: springcloud
+    password: '{cipher}3029d520c89d13d404ad25a2788060b23b8e100d3855e82a63586480faf50c0e'
+    
+    
+  
