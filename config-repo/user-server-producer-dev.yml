@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    stream:
+      binders:
+        output:
+          destination: input
+  rabbitmq:
+    host: 192.168.1.39
+    port: 5672
+    username: springcloud
+    password: '{cipher}3029d520c89d13d404ad25a2788060b23b8e100d3855e82a63586480faf50c0e'
