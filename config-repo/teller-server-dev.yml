@@ -1,7 +1,7 @@
 spring: 
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.1.39:3306/teller_db?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.39:3306/teller_db?characterEncoding=UTF-8
     username: root
     password: '{cipher}a1e204b28f849d13687cd4bbcff70d570121566950e7ed6af52d9491f835c1a7'
     tomcat:
